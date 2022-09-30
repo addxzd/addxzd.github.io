@@ -12,12 +12,13 @@
     <title>熊之大-首页</title>
     <style>
         img {
-            width: 100px;
-            height: 100px;
-            border-radius: 20%;
+            width: 1000px;
+            height: 500px;
+            /* border-radius: 20%; */
             background-size: 100px;
             background-repeat: no-repeat;
             background-position-y: 9%;
+            
         }
 
         h2 {
@@ -25,10 +26,12 @@
         }
 
         .ddd {
-            width: 100px;
-            height: 100px;
-            float: left;
+            width: 1000px;
+            height: 500px;
+            /* float: left; */
             position: relative;
+            display: table;
+            text-align: center;
         }
 
         .ddd p {
@@ -42,7 +45,7 @@
             text-shadow: -1px 1px 0 #000, 1px 1px 0 #000;
         }
 
-        .ddd h6 {
+        .ddd h3 {
             position: absolute;
             bottom: 0;
             text-align: center;
@@ -51,6 +54,11 @@
             color: white;
             text-shadow: -1px 1px 0 #000, 1px 1px 0 #000;
         }
+        
+        .box{
+            display: table-cell;
+            vertical-align: middle;
+        }
     </style>
 
 </head>
@@ -58,18 +66,20 @@
 <body>
     <h2>欢迎来到熊之大主页</h2>
     <div class="ddd">
+        <div class="box"></div>
         <a onclick="jsjsjs()" href="https://addxzd.github.io/c.html"><img
                 src="http://cdn.img.kggzs.cn/uploads/2022/09/30/6336eb4b25470.png">
         </a>
-        <h6>点击前往直播项目链接获取页</h6>
+        <h3>点击前往直播项目链接获取页</h3>
         <P></P>
+        </div>
     </div>
 
     <div class="ddd">
         <a onclick="jsjsjs()" href="https://addxzd.github.io/g.html"><img
                 src="http://cdn.img.kggzs.cn/uploads/2022/09/30/6336ebf655634.png">
         </a>
-        <h6>点击前往G系列网站破解页面</h6>
+        <h3>点击前往G系列网站破解页面</h3>
         <P></P>
     </div>
 
@@ -77,7 +87,7 @@
         <a onclick="jsjsjs()" href="https://addxzd.github.io/"><img
                 src="http://cdn.img.kggzs.cn/uploads/2022/09/30/6336ec0d6a259.png">
         </a>
-        <h6>待更新</h6>
+        <h3>待更新</h3>
         <P></P>
     </div>
 </body>
@@ -90,7 +100,7 @@
             oli[i].onclick = function () {
                 console.log('你点击的列表的下标是：' + this.index);//列表下标从0开始
                 gg = this.index;
-                gtitle = document.getElementsByTagName('h6')[gg].innerHTML;
+                gtitle = document.getElementsByTagName('h3')[gg].innerHTML;
                 ff = document.getElementsByTagName('a')[gg].getAttribute('href');
                 document.title = gtitle;
                 fy_bridge_app.playVideo(ff);
@@ -98,43 +108,7 @@
         }
     }
 
-    function loopy() {
-        var sWord = ""
-        while (sWord != "春眠不觉晓") {
-            sWord = prompt("请输入九月密令!")
-        }
-        alert("正在进入！")
-    }
-
-
-    function setUCookie(u_name, value) {
-        var exdate = new Date()
-        exdate.setHours(exdate.getHours() + 1); //1小时后过期
-        document.cookie = u_name + "=" + escape(value) + "; expires=" + exdate.toGMTString();
-    }
-
-    function getUCookie(u_name) {
-        if (document.cookie.length > 0) {
-            u_start = document.cookie.indexOf(u_name + "=")
-            if (u_start != -1) {
-                u_start = u_start + u_name.length + 1
-                u_end = document.cookie.indexOf(";", u_start)
-                if (u_end == -1) u_end = document.cookie.length
-                return unescape(document.cookie.substring(u_start, u_end))
-            }
-        }
-        return ""
-    }
-
-    function _setTimeout() {
-        if (getUCookie("uTimeCookie") != 1) {
-            loopy()
-        }
-    }
-
-    _setTimeout()
-
-    setUCookie("uTimeCookie", "1");
+    
 </script>
 
 </html>
