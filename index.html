@@ -1,726 +1,105 @@
 <!doctype html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>熊之大-8月</title>
     <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-
-    <title>熊之大-JSXM</title>
+    <script src="http://cdn.bootcss.com/clipboard.js/1.6.1/clipboard.min.js"></script>
     <style>
-        img {
-            width: 100px;
-            height: 100px;
-            border-radius: 20%;
-            background-size: 100px;
-            background-repeat: no-repeat;
-            background-position-y: 9%;
+        #copy::selection {  
+            background: #fffddd;
+            color: #000fff;
+        }
+		
+		.btn2{
+		    background: rgb(28,184,65);
+                width:400px;
+                height:40px
+		}		
+		.btn3{
+		    background: rgb(223,117,60);
+                width:400px;
+                height:40px
+		}		
+		.btn4{
+		    background: rgb(66,184,221);
+                width:400px;
+                height:40px
+		}
+        h4{
+            color: red
+        }
+        span{
+            font-size:10px;width:400px;word-wrap: break-word;
         }
 
-        h1 {
-            text-align: center;
-        }
-
-        .ddd {
-            width: 100px;
-            height: 100px;
-            float: left;
-            position: relative;
-        }
-
-        .ddd p {
-            font-size: 7px;
-            position: absolute;
-            bottom: 0;
-            text-align: center;
-            width: 100%;
-            padding-bottom: 0px;
-            color: white;
-            text-shadow: -1px 1px 0 #000, 1px 1px 0 #000;
-        }
-
-        .ddd h6 {
-            position: absolute;
-            bottom: 0;
-            text-align: center;
-            width: 100%;
-            padding-bottom: 0px;
-            color: white;
-            text-shadow: -1px 1px 0 #000, 1px 1px 0 #000;
-        }
     </style>
-
 </head>
-
 <body>
-    <h1>DDM</h1>
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//284995_1664021819"><img
-                src="http://tope.jrvrczz.com/20220923185210_f85b2180d31f1af16deef449634550ce?imageView2/2/w/200/h/200">
-        </a>
-        <h6>小宇呀</h6>
-        <P>可提要求</P>
-    </div>
 
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//225395_1664017149"><img
-                src="http://tope.jrvrczz.com/20220916100636_e507dfa71538e732ffaba7fa8c26a493?imageView2/2/w/200/h/200">
-        </a>
-        <h6>黑骏马</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//185886_1664023945"><img
-                src="http://tope.jrvrczz.com/20220819213810_6697ac3b654d260ae4a1009a7e9510a1?imageView2/2/w/200/h/200">
-        </a>
-        <h6>北京天坛爷们客栈</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//172376_1664022307"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>新用户3042</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//230297_1664020437"><img
-                src="http://tope.jrvrczz.com/20220824100642_7b58c9fd9e622844fe0e5675e3580436?imageView2/2/w/200/h/200">
-        </a>
-        <h6>农村叔</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//217709_1664024585"><img
-                src="http://tope.jrvrczz.com/20220806173219_527ca48dcbb16a84816aac31346059f8?imageView2/2/w/200/h/200">
-        </a>
-        <h6>雪山神枪</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//229429_1664027844"><img
-                src="http://tope.jrvrczz.com/20220924102610_71f775aacf6d1b51d8aff7cfade0cb92?imageView2/2/w/200/h/200">
-        </a>
-        <h6>Fort</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//222654_1664027835"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>骚老头0</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//287764_1664027803"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>自由就好</h6>
-        <P>勾引老头教材交流室</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//153446_1664027656"><img
-                src="http://tope.jrvrczz.com/20220629031413_8552e060530df4752aac2a011dcbdf04?imageView2/2/w/200/h/200">
-        </a>
-        <h6>豪憨憨</h6>
-        <P>跟大茄子老外玩，加微有浮力</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//155078_1664027646"><img
-                src="http://tope.jrvrczz.com/20220924073547_7416fcd352ca8663232bddd31b6befb5?imageView2/2/w/200/h/200">
-        </a>
-        <h6>分享有回报</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//216885_1664027626"><img
-                src="http://tope.jrvrczz.com/20220906234456_8e76617636cf653363f0437b8624e7a9?imageView2/2/w/200/h/200">
-        </a>
-        <h6>新用户9015</h6>
-        <P>聋哑人</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//228905_1664027620"><img
-                src="http://tope.jrvrczz.com/20220825171022_6a1b7f7a6cbdaa70632e9c9a64a4d8f5?imageView2/2/w/200/h/200">
-        </a>
-        <h6>五叔叔</h6>
-        <P>加Ⅴ送头像老爷子福利视频</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//211015_1664027570"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>夕阳爱晨光</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//198334_1664027530"><img
-                src="http://tope.jrvrczz.com/20220817213942_af9bb835ea6a93d7f01b1e20db7575fd?imageView2/2/w/200/h/200">
-        </a>
-        <h6>筑林聚士</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//210082_1664027461"><img
-                src="http://tope.jrvrczz.com/20220730213702_d3257cd758604a2ea0349701499cfb87?imageView2/2/w/200/h/200">
-        </a>
-        <h6>撩个壮熊</h6>
-        <P>撩个壮熊</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//227902_1664027402"><img
-                src="http://tope.jrvrczz.com/20220815202204_04ed2c8a3a18ead79abb7bb4b0b6223d?imageView2/2/w/200/h/200">
-        </a>
-        <h6>青春不老</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//214770_1664027342"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>新用户1687</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//157131_1664027323"><img
-                src="http://tope.jrvrczz.com/20220702083328_ebb441a9d4ed6964d9c60c8f3ecc2a42?imageView2/2/w/200/h/200">
-        </a>
-        <h6>我是大叔</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//235541_1664027294"><img
-                src="http://tope.jrvrczz.com/20220823193101_5429e43b31cb287a429b410e0e4c74c1?imageView2/2/w/200/h/200">
-        </a>
-        <h6>中年健</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//173716_1664027261"><img
-                src="http://tope.jrvrczz.com/20220924202626_129fdaff7de5d5bb0c5f81c8f6ed8a0c?imageView2/2/w/200/h/200">
-        </a>
-        <h6>黎叔不生气</h6>
-        <P>真诚交友</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//291917_1664027157"><img
-                src="http://tope.jrvrczz.com/20220924123507_adcd8c22272fd03b6bb2a8f89b96d2d4?imageView2/2/w/200/h/200">
-        </a>
-        <h6>大黑屌</h6>
-        <P>卡了</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//213618_1664027141"><img
-                src="http://tope.jrvrczz.com/20220802202525_01de6f904b4b1e2cc34227fd037520d0?imageView2/2/w/200/h/200">
-        </a>
-        <h6>疯狂爱老</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//243550_1664027099"><img
-                src="http://tope.jrvrczz.com/20220903153938_2285228e2da4aa71da84ef43f5b0d328?imageView2/2/w/200/h/200">
-        </a>
-        <h6>小兵18CM</h6>
-        <P>求守护</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//289019_1664027067"><img
-                src="http://topp.haihexx.com/20220918084051_cb27b80a8c9368a22faef38bb2a77c28?imageView2/2/w/200/h/200">
-        </a>
-        <h6>时尚老头</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//223934_1664027050"><img
-                src="http://tope.jrvrczz.com/20220815104148_9679b5e27c402823b6ab187fdbb52dbb?imageView2/2/w/200/h/200">
-        </a>
-        <h6>西北憨叔</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//229109_1664026986"><img
-                src="http://tope.jrvrczz.com/20220906000250_94b83df82a82332e4660797f459d4fda?imageView2/2/w/200/h/200">
-        </a>
-        <h6>新用户5547</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//199781_1664026915"><img
-                src="http://tope.jrvrczz.com/20220923065351_871863a4d8329989ddcf5804f2bdcf32?imageView2/2/w/200/h/200">
-        </a>
-        <h6>缘分</h6>
-        <P>来吧，玩吧，</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//183120_1664026862"><img
-                src="http://tope.jrvrczz.com/20220921055628_74b005b9156414f57f650f214ec1e036?imageView2/2/w/200/h/200">
-        </a>
-        <h6>雄父</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//291925_1664026848"><img
-                src="http://tope.jrvrczz.com/20220924171404_9ded88abe4f24b36a4d6188840c56b38?imageView2/2/w/200/h/200">
-        </a>
-        <h6>爱肏逼😛</h6>
-        <P>打飞机，射……</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//217920_1664026815"><img
-                src="http://tope.jrvrczz.com/20220923075952_79be311a48259e373897975296b1efc4?imageView2/2/w/200/h/200">
-        </a>
-        <h6>东北叔</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//175010_1664026722"><img
-                src="http://tope.jrvrczz.com/20220706033549_012b685b12fe43f3cec263628cc2ee46?imageView2/2/w/200/h/200">
-        </a>
-        <h6>大屌胖帅大叔</h6>
-        <P>加v送福利有看片的和壮阳方法</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//228563_1664026309"><img
-                src="http://tope.jrvrczz.com/20220922104350_9fa32ca1bf6db430db22388c77156e5a?imageView2/2/w/200/h/200">
-        </a>
-        <h6>性感大叔0</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//175544_1664026218"><img
-                src="http://tope.jrvrczz.com/20220820095317_b99b825243aa91edf7982a22019faa94?imageView2/2/w/200/h/200">
-        </a>
-        <h6>莱州湾的老头</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//241361_1664026216"><img
-                src="http://tope.jrvrczz.com/20220831212621_8a037f68168c43ea9117e749da40c388?imageView2/2/w/200/h/200">
-        </a>
-        <h6>潍坊李钟硕</h6>
-        <P>求金主爸爸</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//287043_1664026148"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>新用户5297</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//229040_1664026135"><img
-                src="http://tope.jrvrczz.com/20220901231446_0a22c7d01e6a1f4e70382a838abcbba4?imageView2/2/w/200/h/200">
-        </a>
-        <h6>中年大叔E</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//155631_1664026091"><img
-                src="http://tope.jrvrczz.com/20220629192926_a97f68eea0b1e35a090ecb32a2f911e3?imageView2/2/w/200/h/200">
-        </a>
-        <h6>倩碧</h6>
-        <P>胖大叔</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//234360_1664026067"><img
-                src="http://tope.jrvrczz.com/20220910080546_22ad68e1c6b16c609116202b26e1bc69?imageView2/2/w/200/h/200">
-        </a>
-        <h6>胸毛乖胡子</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//224716_1664026045"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>新用户35461</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//151290_1664025957"><img
-                src="http://tope.jrvrczz.com/20220719224331_e16d850d2f5b2fd65a9fa096242aebef?imageView2/2/w/200/h/200">
-        </a>
-        <h6>沂蒙山老头</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//246232_1664025950"><img
-                src="http://tope.jrvrczz.com/20220910141625_b3aee8259d56d53b1c38a27c3315165b?imageView2/2/w/200/h/200">
-        </a>
-        <h6>骚聊交友接司🔥</h6>
-        <P>骚聊</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//233250_1664025659"><img
-                src="http://tope.jrvrczz.com/20220924212031_4f47545844e0854f7328e2fe3acb6844?imageView2/2/w/200/h/200">
-        </a>
-        <h6>十九厘米 小叔叔</h6>
-        <P>私➕v福利</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//229959_1664025606"><img
-                src="http://tope.jrvrczz.com/20220907212107_594df14a34cbb3fa894dd03ad7556fee?imageView2/2/w/200/h/200">
-        </a>
-        <h6>按摩推油</h6>
-        <P>按摩推油</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//290807_1664025601"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>新用户0982</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//245313_1664025549"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>风不知在等谁</h6>
-        <P>宿舍多人</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//164230_1664025484"><img
-                src="http://tope.jrvrczz.com/20220730213910_c28dbcf96c848f61786cbbf7a098ec54?imageView2/2/w/200/h/200">
-        </a>
-        <h6>四川清瘦老头</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//154756_1664025377"><img
-                src="http://tope.jrvrczz.com/20220914204413_17387ee9124a2304fb360b4f7b7c9009?imageView2/2/w/200/h/200">
-        </a>
-        <h6>东北小壮熊</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//287785_1664025346"><img
-                src="http://tope.jrvrczz.com/20220924001316_6149abd06566f1ce35712d9a51adf4a8?imageView2/2/w/200/h/200">
-        </a>
-        <h6>新用户2130</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//240959_1664025335"><img
-                src="http://tope.jrvrczz.com/20220831211528_31e5181d5f80d8df854bb3ebdd125098?imageView2/2/w/200/h/200">
-        </a>
-        <h6>粗又大胡子叔</h6>
-        <P>粗又大胡子叔</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//148890_1664025231"><img
-                src="http://tope.jrvrczz.com/20220828225544_63269511da8d04f94155b540d2bcd82f?imageView2/2/w/200/h/200">
-        </a>
-        <h6>小天。</h6>
-        <P>加V送本人福利视频。</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//173937_1664024894"><img
-                src="http://tope.jrvrczz.com/20220918174931_a01e465608361738796e3325bc4dba4b?imageView2/2/w/200/h/200">
-        </a>
-        <h6>6468</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//152781_1664024561"><img
-                src="http://tope.jrvrczz.com/20220924210234_9af6a3d46564a218535ebe4e1fd8b0b5?imageView2/2/w/200/h/200">
-        </a>
-        <h6>看熊主玩奴596</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//228936_1664024536"><img
-                src="http://topp.haihexx.com/20220917232651_f0d8bf5235c93a76e2d89c65b64158d8?imageView2/2/w/200/h/200">
-        </a>
-        <h6>胖帅老头</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//180555_1664024399"><img
-                src="http://tope.jrvrczz.com/20220728225334_3602b2579519a321c0cce74d712d5928?imageView2/2/w/200/h/200">
-        </a>
-        <h6>男人的毛</h6>
-        <P>接私</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//211620_1664024349"><img
-                src="http://tope.jrvrczz.com/20220923023056_04da3a46fc72faa039490aa0588cee21?imageView2/2/w/200/h/200">
-        </a>
-        <h6>新用户4019</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//225558_1664024270"><img
-                src="http://tope.jrvrczz.com/20220829162250_f9f735b7d448343874d3617f11ce22a8?imageView2/2/w/200/h/200">
-        </a>
-        <h6>新用户1249</h6>
-        <P>老火龙</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//156192_1664024161"><img
-                src="http://tope.jrvrczz.com/20220630153742_4a074be61863cd5d87d7b53d088302c6?imageView2/2/w/200/h/200">
-        </a>
-        <h6>山东诚实大叔</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//148087_1664023986"><img
-                src="http://tope.jrvrczz.com/20220924205243_4308d5d2e563ab17f199aa90e816dd39?imageView2/2/w/200/h/200">
-        </a>
-        <h6>骚研</h6>
-        <P>加v有福利视频</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//287250_1664023830"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>新用户7517</h6>
-        <P>戴着面纱的宝贝</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//244145_1664023607"><img
-                src="http://tope.jrvrczz.com/20220913211344_d8a645b5e5817a4a71dd63aeac31bbe7?imageView2/2/w/200/h/200">
-        </a>
-        <h6>帅老控</h6>
-        <P>帅老控</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//239813_1664023602"><img
-                src="http://tope.jrvrczz.com/20220923111905_8ae366bcb0ae20970aa8cd812a1cd19c?imageView2/2/w/200/h/200">
-        </a>
-        <h6>浪子闲话</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//234390_1664023336"><img
-                src="http://tope.jrvrczz.com/20220826155818_0d25186ac21b3b1bc3962ed0a3810e35?imageView2/2/w/200/h/200">
-        </a>
-        <h6>乡村大叔</h6>
-        <P>晚上好！</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//190610_1664022393"><img
-                src="http://tope.jrvrczz.com/20220813121936_4095bf4b3a94ab5b6e29c21bc23a06f4?imageView2/2/w/200/h/200">
-        </a>
-        <h6>东北洪哥</h6>
-        <P>大吊叔</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//157002_1664022292"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>新用户9973</h6>
-        <P>三姐</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//223275_1664022122"><img
-                src="http://tope.jrvrczz.com/20220907014422_487abf8dc823056699f09f9a31873824?imageView2/2/w/200/h/200">
-        </a>
-        <h6>寻宝贝</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//226058_1664021236"><img
-                src="http://tope.jrvrczz.com/20220813100405_de3b0b221db10dc0161b28e775b9f006?imageView2/2/w/200/h/200">
-        </a>
-        <h6>老王頭</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//149046_1664021094"><img
-                src="http://tope.jrvrczz.com/20220728214546_5099858cf0f95e402a0ff62b4ba3563b?imageView2/2/w/200/h/200">
-        </a>
-        <h6>大屌猛男</h6>
-        <P>100票以上➕v主播无套内射啪啪福利太刺激了太好看</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//222318_1664021074"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>新用户4930</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//159586_1664020722"><img
-                src="http://tope.jrvrczz.com/20220914220455_bed3111d518dd0a4fe7b1dac18df4671?imageView2/2/w/200/h/200">
-        </a>
-        <h6>啊辉大蘑菇</h6>
-        <P>本人，动物</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//155501_1664020710"><img
-                src="http://tope.jrvrczz.com/20220923115117_83f07a36e485ff1b48b9ec4be4e6d19d?imageView2/2/w/200/h/200">
-        </a>
-        <h6>白胡大叔</h6>
-        <P>人与动物，大叔群</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//247343_1664020596"><img
-                src="http://tope.jrvrczz.com/20220914094116_1cbe6da64b194d2e9e69272b71f99f78?imageView2/2/w/200/h/200">
-        </a>
-        <h6>天津帅老</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//148504_1664019793"><img
-                src="http://topp.haihexx.com/20220917112757_aa1f2465365a74f2b07790f634b96918?imageView2/2/w/200/h/200">
-        </a>
-        <h6>隔壁小宝哥</h6>
-        <P>随缘主播，520有福利</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//210052_1664019268"><img
-                src="http://tope.jrvrczz.com/20220914195004_af819673c42a349c0a8cae1d64a8ac5e?imageView2/2/w/200/h/200">
-        </a>
-        <h6>帅大叔18.5</h6>
-        <P>给帅大叔按摩</P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//229085_1664018870"><img
-                src="https://tt.haihexx.com/default_thumb.jpg"> </a>
-        <h6>无聊聊天。</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//206955_1664016499"><img
-                src="http://tope.jrvrczz.com/20220817071617_4d1742f716588ff263b4508dbee68b01?imageView2/2/w/200/h/200">
-        </a>
-        <h6>好啊</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//164255_1664013152"><img
-                src="http://tope.jrvrczz.com/20220904102831_d71bb92f4657b4bde83a377f732e3a36?imageView2/2/w/200/h/200">
-        </a>
-        <h6>老张头</h6>
-        <P></P>
-    </div>
-
-    <div class="ddd">
-        <a onclick="jsjsjs()" href="rtmp://106.55.71.72/live//207650_1663845704"><img
-                src="http://tope.jrvrczz.com/20220922145814_8033eb5f8453f638d2150269a97b7871?imageView2/2/w/200/h/200">
-        </a>
-        <h6>独行狼🐺</h6>
-        <P></P>
-    </div>
-</body>
-<script>
-    function jsjsjs(data) {
-        var oli = document.getElementsByTagName('a');
-        for (var i = 0; i < oli.length; i++) {
-            oli[i].index = i;
-            oli[i].onclick = function () {
-                console.log('你点击的列表的下标是：' + this.index);//列表下标从0开始
-                gg = this.index;
-                gtitle = document.getElementsByTagName('h6')[gg].innerHTML;
-                ff = document.getElementsByTagName('a')[gg].getAttribute('href');
-                document.title = gtitle;
-                fy_bridge_app.playVideo(ff);
-            };
+    <h2>   点击下面的带有颜色的对应的按钮即可一键复制，点击后到对应平台粘贴即可 </h2>
+        <h4>  方式一链接：视米趣播，IOS zFuse可使用  </h4>
+    <span id="copy">https://agit.ai/xzdx05/1848eb8181de1e51/raw/branch/master/AllNormal.m3u</span>
+		<h5>  建议：方式一链接仅推荐视米趣播使用，IOS zFuse可使用方式二  </h5>
+    <button class="btn2" data-clipboard-target="#copy" >一键复制方式一链接 </button>
+
+	<h4>  方式二链接：安卓GSE IPTV/IPTV PRO/Televizo、IOS GSE/zFuse、电脑potplayer/黑鸟播放器/VLC 可使用  </h4>
+	<span id="copy2">https://agit.ai/xzdx05/1848eb8181de1e51/raw/branch/master/AllStandard.m3u</span>
+		<h5>  建议：方式二链接为最稳定链接，请使用以上软件导入，安卓推荐GSE、IPTV PRO，IOS推荐zFuse，电脑推荐黑鸟播放器  </h5>
+    <button class="btn3" data-clipboard-target="#copy2" >一键复制方式二链接</button>
+	
+	<h4>  海阔视界专属小程序密令：  </h4>
+	<span id="copy3">海阔视界规则分享，当前分享的是：小程序￥home_rule_v2￥base64://@熊之大-全平台直播@eyJsYXN0X2NoYXB0ZXJfcnVsZSI6IiIsInRpdGxlIjoi54aK5LmL5aSnLeWFqOW5s+WPsOebtOaSrSIsImF1dGhvciI6IueGiuS5i+WkpyIsInVybCI6Imh0dHBzOi8vYWdpdC5haS94emR4MDUvMTg0OGViODE4MWRlMWU1MS9yYXcvYnJhbmNoL21hc3Rlci9BbGxOb3JtYWwubTN1IiwidmVyc2lvbiI6MTEsImNvbF90eXBlIjoibW92aWVfMyIsImNsYXNzX25hbWUiOiIxIiwidHlwZSI6Im90aGVyIiwiY2xhc3NfdXJsIjoiIiwiYXJlYV9uYW1lIjoiIiwiYXJlYV91cmwiOiIiLCJzb3J0X25hbWUiOiIiLCJ5ZWFyX25hbWUiOiIiLCJzb3J0X3VybCI6IiIsInllYXJfdXJsIjoiIiwiZmluZF9ydWxlIjoianM6IHZhciB0eHRzPWdldFJlc0NvZGUoKS5zcGxpdCgnXFxuJyk7XG4gICAgIHZhciByZXM9e307XG4gICAgIHZhciBkPVtdO1xuIGZvcih2YXIgaT0wO2k8dHh0cy5sZW5ndGg7aSsrKXtcbiAgICAgdmFyIHI9e307XG4gICAgIHZhciBqPXR4dHNbaV0uc3BsaXQoJywnKTtcbiAgICAgICAgIGlmKGoubGVuZ3RoPDIpe2NvbnRpbnVlO31cbiAgICAgICAgICByLnRpdGxlPWpbMF07XG4gICAgICAgICAgci51cmw9alsxXS5yZXBsYWNlKGBcXG5gLCcnKS5yZXBsYWNlKCdcXHInLCcnKTtcbiAgICAgICAgICByLmNvbF90eXBlPSd0ZXh0XzMnO1xuICAgICAgICAgIGQucHVzaChyKTtcbn1cbnJlcy5kYXRhPWQ7XG5zZXRIb21lUmVzdWx0KHJlcyk7Iiwic2VhcmNoX3VybCI6IiIsImdyb3VwIjoi4pGl55u05pKtIiwic2VhcmNoRmluZCI6ImpzOiB2YXIgb2JqID0gZ2V0UmVzQ29kZSgpO1xyXG52YXIgbGlzdCA9IG9iai5zcGxpdCgnKicpO1xyXG52YXIgdSA9IGdldFVybCgpO1xyXG52YXIgcyA9IHUuc3BsaXQoJyMnKVsxXTtcclxudmFyIHJlcyA9IHt9O1xyXG52YXIgZCA9IFtdO1xyXG5mb3IgKHZhciBpID0gMTsgaSA8IGxpc3QubGVuZ3RoIC0xOyBpKyspXHJcbntcblxyaWYobGlzdFtpXS5zcGxpdCgnXScpWzBdLmluZGV4T2YocykgIT0gLTEpe1xuICAgIGQucHVzaCh7XHJcbiAgICAgICAgdGl0bGU6IGxpc3RbaV0uc3BsaXQoJ10nKVswXS5yZXBsYWNlKCdbJywgJyAnKSxcclxuICAgICAgICB1cmw6IGxpc3RbaV0uc3BsaXQoJygnKVsxXS5yZXBsYWNlKCcpJywgJyAnKVxyXG4gICAgfSlcclxufVxufVxyXG5yZXMuZGF0YSA9IGQ7XHJcbnNldFNlYXJjaFJlc3VsdChyZXMpOyIsImRldGFpbF9jb2xfdHlwZSI6InRleHRfNCIsImRldGFpbF9maW5kX3J1bGUiOiIiLCJzZGV0YWlsX2NvbF90eXBlIjoidGV4dF80Iiwic2RldGFpbF9maW5kX3J1bGUiOiIiLCJ1YSI6ImF1dG8iLCJwcmVSdWxlIjoiIiwicGFnZXMiOiJbXSIsImljb24iOiJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMTAvMjQvNVdFUVBPLmpwZyIsInByb3h5IjoiIn0=</span>
+    	<h5>  提示：点击按钮复制，直接打开海阔导入即可  </h5>
+	<button class="btn4" data-clipboard-target="#copy3">一键复制安卓海阔视界导入密令</button>
+	
+    <script>
+       $(function () {
+           new Clipboard('.btn2, .btn3, .btn4');
+       })
+       function loopy() {   
+            var sWord =""  
+            while (sWord != "春眠不觉晓") {
+            sWord = prompt("请输入九月密令!")   
+               }   
+            alert("正在进入！")   
+        }   
+
+        
+        function setUCookie(u_name,value){
+            var exdate=new Date()
+            exdate.setHours(exdate.getHours() + 1); //1小时后过期
+            document.cookie=u_name+ "=" +escape(value)+"; expires="+exdate.toGMTString();
         }
-    }
-
-    function loopy() {
-        var sWord = ""
-        while (sWord != "春眠不觉晓") {
-            sWord = prompt("请输入九月密令!")
+        
+        function getUCookie(u_name){
+            if (document.cookie.length>0){ 
+                u_start=document.cookie.indexOf(u_name + "=")
+            if (u_start!=-1){ 
+                u_start=u_start + u_name.length+1 
+                u_end=document.cookie.indexOf(";",u_start)
+                if (u_end==-1) u_end=document.cookie.length
+                    return unescape(document.cookie.substring(u_start,u_end))
+                } 
+            }
+            return ""
         }
-        alert("正在进入！")
-    }
-
-
-    function setUCookie(u_name, value) {
-        var exdate = new Date()
-        exdate.setHours(exdate.getHours() + 1); //1小时后过期
-        document.cookie = u_name + "=" + escape(value) + "; expires=" + exdate.toGMTString();
-    }
-
-    function getUCookie(u_name) {
-        if (document.cookie.length > 0) {
-            u_start = document.cookie.indexOf(u_name + "=")
-            if (u_start != -1) {
-                u_start = u_start + u_name.length + 1
-                u_end = document.cookie.indexOf(";", u_start)
-                if (u_end == -1) u_end = document.cookie.length
-                return unescape(document.cookie.substring(u_start, u_end))
+        
+        function _setTimeout(){
+            if(getUCookie("uTimeCookie")!=1){
+                loopy()  
             }
         }
-        return ""
-    }
+        
+        _setTimeout()
+        
+        setUCookie("uTimeCookie","1");
 
-    function _setTimeout() {
-        if (getUCookie("uTimeCookie") != 1) {
-            loopy()
-        }
-    }
-
-    _setTimeout()
-
-    setUCookie("uTimeCookie", "1");
-</script>
-
+    </script>
+    </script>
+</body>
 </html>
