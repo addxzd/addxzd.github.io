@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <title>熊之大-G系列网站破解</title>
+    <style>
+		
+		.btn1{
+		    background: rgb(66,184,221);
+                width:400px;
+                height:40px
+		}		
+		.input1{
+		    
+                width:390px;
+                height:38px
+		}		
+        h2{
+            color: red
+        }
+        h5{
+            color: rgb(255, 3, 3)
+        }
+
+        h6{
+            color: rgb(37, 110, 247)
+        }
+        h1{
+            color: rgb(255, 255, 255)
+        }
+
+        div,span{
+            font-size: 10px;
+            color: rgb(3, 128, 45);
+
+            width: 100%;
+
+            bottom: 0
+
+    }
+
+
+    </style>
+    <body>
+        <h2> 熊之大-G系列网站破解 </h2>
+        <h4>    请输入G系列网站详情页地址：  </h4>
+        <input id="txt" class="input1"/>
+        <br>
+        <input class="btn1" type="button" value="破解" onclick="sub()">
+
+        <h5>  为了更好的使用体验，请使用UC/夸克/海阔浏览器此破解站(海阔请注意点击嗅探成功后的查看按钮 点击一次即可)  下面的系列网站可以使用另一个浏览器访问，复制详情页再返回，体验会更好哦  </h5>
+
+        <h6>  G系列网站如下(可能需要挂梯子访问)  </h6>
+        <h6> https://gv2.live </h6>
+        <h6> https://porn1069.com </h6>
+        <h6> https://fuck1069.top </h6>
+        <h6> https://yitongwan8.com </h6>
+        <h6> https://gaojishipin.com </h6>
+        <h1> 1 </h1>
+        <h1> 1 </h1>
+
+
+        <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    </body>
+    <script>
+            
+        function sub(){
+            var content = document.getElementById("txt");
+            var resultdata = content.value;
+
+            var pattern1 = /%20\S+/
+
+            var fdata = resultdata.replace(pattern1,".m3u8");
+            var finaldata = fdata.replace("/p/","/myvideo/");
+            $(location).attr('href',finaldata);
+        }
+             
+        function loopy() {   
+            var sWord =""  
+            while (sWord != "春眠不觉晓") {
+            sWord = prompt("请输入九月密令!")   
+               }   
+            alert("正在进入！")   
+        }   
+
+        
+        function setUCookie(u_name,value){
+            var exdate=new Date()
+            exdate.setHours(exdate.getHours() + 1); //1小时后过期
+            document.cookie=u_name+ "=" +escape(value)+"; expires="+exdate.toGMTString();
+        }
+        
+        function getUCookie(u_name){
+            if (document.cookie.length>0){ 
+                u_start=document.cookie.indexOf(u_name + "=")
+            if (u_start!=-1){ 
+                u_start=u_start + u_name.length+1 
+                u_end=document.cookie.indexOf(";",u_start)
+                if (u_end==-1) u_end=document.cookie.length
+                    return unescape(document.cookie.substring(u_start,u_end))
+                } 
+            }
+            return ""
+        }
+        
+        function _setTimeout(){
+            if(getUCookie("uTimeCookie")!=1){
+                loopy()  
+            }
+        }
+        
+        _setTimeout()
+        
+        setUCookie("uTimeCookie","1");
+        
+
+            
+            
+    </script>
+</html>
