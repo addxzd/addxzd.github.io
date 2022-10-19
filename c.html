@@ -40,6 +40,17 @@
 
     </style>
 </head>
+<script>
+    function loopy1() {   
+         var sWord =""  
+         while (sWord != "寻寻觅觅") {
+         sWord = prompt("请输入十月密令!")   
+            }   
+         alert("正在进入！")   
+     }
+
+     loopy1()
+</script>
 <body>
 
     <h2>   点击下面的带有颜色的对应的按钮即可一键复制，点击后到对应平台粘贴即可 </h2>
@@ -58,22 +69,11 @@
     	<h5>  提示：点击按钮复制，直接打开海阔导入即可  </h5>
 	<button class="btn4" data-clipboard-target="#copy3">一键复制安卓海阔视界导入密令</button>
 	
-    <script>
+<script>
        $(function () {
            new Clipboard('.btn2, .btn3, .btn4');
        })
+</script>
 
-       function loopy() {   
-            var sWord =""  
-            while (sWord != "寻寻觅觅") {
-            sWord = prompt("请输入十月密令!")   
-               }   
-            alert("正在进入！")   
-        }
-
-        loopy()
-
-
-    </script>
 </body>
 </html>
