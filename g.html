@@ -37,7 +37,7 @@
 
         div,span{
             font-size: 10px;
-            color: rgb(3, 128, 45);
+            color: rgb(255, 255, 255);
 
             width: 100%;
 
@@ -49,12 +49,13 @@
     </style>
     <body>
         <h2> 熊之大-G系列网站破解 </h2>
-        <h4>    请输入G系列网站详情页地址：  </h4>
-        <input id="txt" class="input1"/>
+        <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        <h4>    请输入G系列网站详情页地址(再次点击输入框自动清空)：  </h4>
+        <input id="txt" class="input1" onclick="clrinput1()"/>
         <br>
         <input class="btn1" type="button" value="破解" onclick="sub()">
 
-        <h5>  为了更好的使用体验，请使用UC/夸克/海阔浏览器此破解站(海阔请注意点击嗅探成功后的查看按钮 点击一次即可)  下面的系列网站可以使用另一个浏览器访问，复制详情页再返回，体验会更好哦  </h5>
+        <h5>  为了更好的使用体验，请使用via/x浏览器/UC/夸克/海阔浏览器此破解站(海阔请注意点击嗅探成功后的查看按钮 点击一次即可)体验会更好哦  </h5>
 
         <h6>  G系列网站如下(可能需要挂梯子访问 如UC/夸克被和谐请换浏览器)  </h6>
         <h6> https://gv2.live </h6>
@@ -64,9 +65,11 @@
         <h6> https://gaojishipin.com </h6>
         <h1> 1 </h1>
         <h1> 1 </h1>
+        <h5>  详情页示例：  </h5>
+        <img src="http://cdn.img.kggzs.cn/uploads/2022/10/19/634f97de9ff25.jpg">
 
 
-        <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        
     </body>
     <script>
             
@@ -79,6 +82,10 @@
             var fdata = resultdata.replace(pattern1,".m3u8");
             var finaldata = fdata.replace("/p/","/myvideo/");
             $(location).attr('href',finaldata);
+        }
+
+        function clrinput1(){
+            document.getElementById('txt').value='';
         }
              
         function loopy() {   
