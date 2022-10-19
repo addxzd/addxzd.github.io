@@ -1,104 +1,76 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>熊之大-10月</title>
-    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://cdn.bootcss.com/clipboard.js/1.6.1/clipboard.min.js"></script>
-    <style>
-        #copy::selection {  
-            background: #fffddd;
-            color: #000fff;
-        }
+	<!doctype html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+			  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>熊之大-10月</title>
+		<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://cdn.bootcss.com/clipboard.js/1.6.1/clipboard.min.js"></script>
+		<style>
+			#copy::selection {  
+				background: #fffddd;
+				color: #000fff;
+			}
+			
+			.btn2{
+				background: rgb(28,184,65);
+					width:400px;
+					height:40px
+			}		
+			.btn3{
+				background: rgb(223,117,60);
+					width:400px;
+					height:40px
+			}		
+			.btn4{
+				background: rgb(66,184,221);
+					width:400px;
+					height:40px
+			}
+			h4{
+				color: red
+			}
+			span{
+				font-size:10px;width:400px;word-wrap: break-word;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<h2>   点击下面的带有颜色的对应的按钮即可一键复制，点击后到对应平台粘贴即可 </h2>
+			<h4>  方式一链接：视米趣播，IOS zFuse可使用  </h4>
+		<span id="copy">https://gitlab.com/xmfromoct/cafc71cf5a89c907/-/raw/main/AllNormal.m3u</span>
+			<h5>  建议：方式一链接仅推荐视米趣播使用，IOS zFuse可使用方式二  如果视米趣播没有原力需求，建议使用方式2</h5>
+		<button class="btn2" data-clipboard-target="#copy" >一键复制方式一链接 </button>
+
+		<h4>  方式二链接：安卓视迷/GSE IPTV/IPTV PRO、IOS GSE/zFuse、电脑potplayer/黑鸟播放器/VLC 可使用  </h4>
+		<span id="copy2">https://gitlab.com/xmfromoct/cafc71cf5a89c907/-/raw/main/AllStandard.m3u</span>
+			<h5>  建议：方式二链接为最稳定链接，请使用以上软件导入，安卓推荐GSE、IPTV PRO，IOS推荐zFuse，电脑推荐黑鸟播放器 使用Televizo的朋友请停止使用 </h5>
+		<button class="btn3" data-clipboard-target="#copy2" >一键复制方式二链接</button>
 		
-		.btn2{
-		    background: rgb(28,184,65);
-                width:400px;
-                height:40px
-		}		
-		.btn3{
-		    background: rgb(223,117,60);
-                width:400px;
-                height:40px
-		}		
-		.btn4{
-		    background: rgb(66,184,221);
-                width:400px;
-                height:40px
-		}
-        h4{
-            color: red
-        }
-        span{
-            font-size:10px;width:400px;word-wrap: break-word;
-        }
+		<h4>  海阔视界专属小程序密令：  </h4>
+		<span id="copy3">海阔视界规则分享，当前分享的是：小程序￥home_rule_v2￥base64://@熊之大-10月@eyJsYXN0X2NoYXB0ZXJfcnVsZSI6IiIsInRpdGxlIjoi54aK5LmL5aSnLTEw5pyIIiwiYXV0aG9yIjoi54aK5LmL5aSnIiwidXJsIjoiaHR0cHM6Ly9naXRsYWIuY29tL2Z5Y2xhc3MiLCJ2ZXJzaW9uIjoxNiwiY29sX3R5cGUiOiJtb3ZpZV8zIiwiY2xhc3NfbmFtZSI6IuS+v+WIqeeJiCbnqLPlrprniYgiLCJ0eXBlIjoib3RoZXIiLCJjbGFzc191cmwiOiJ4bWZyb21vY3QvY2FmYzcxY2Y1YTg5YzkwNy8tL3Jhdy9tYWluL0FsbE5vcm1hbC5tM3UmcnRtcGcvNGNmOWExYWE2NzgzYWEwNi8tL3Jhdy9tYWluL0lPUy5tM3UiLCJhcmVhX25hbWUiOiIiLCJhcmVhX3VybCI6IiIsInNvcnRfbmFtZSI6IiIsInllYXJfbmFtZSI6IiIsInNvcnRfdXJsIjoiIiwieWVhcl91cmwiOiIiLCJmaW5kX3J1bGUiOiJqczogdmFyIHR4dHM9Z2V0UmVzQ29kZSgpLnNwbGl0KCdcXG4nKTtcbiAgICAgdmFyIHJlcz17fTtcbiAgICAgdmFyIGQ9W107XG4gZm9yKHZhciBpPTA7aTx0eHRzLmxlbmd0aDtpKyspe1xuICAgICB2YXIgcj17fTtcbiAgICAgdmFyIGo9dHh0c1tpXS5zcGxpdCgnLCcpO1xuICAgICAgICAgaWYoai5sZW5ndGg8Mil7Y29udGludWU7fVxuICAgICAgICAgIHIudGl0bGU9alswXTtcbiAgICAgICAgICByLnVybD1qWzFdLnJlcGxhY2UoYFxcbmAsJycpLnJlcGxhY2UoJ1xccicsJycpO1xuICAgICAgICAgIHIuY29sX3R5cGU9J3RleHRfMyc7XG4gICAgICAgICAgZC5wdXNoKHIpO1xufVxucmVzLmRhdGE9ZDtcbnNldEhvbWVSZXN1bHQocmVzKTsiLCJzZWFyY2hfdXJsIjoiIiwiZ3JvdXAiOiLikaXnm7Tmkq0iLCJzZWFyY2hGaW5kIjoianM6IHZhciBvYmogPSBnZXRSZXNDb2RlKCk7XHJcbnZhciBsaXN0ID0gb2JqLnNwbGl0KCcqJyk7XHJcbnZhciB1ID0gZ2V0VXJsKCk7XHJcbnZhciBzID0gdS5zcGxpdCgnIycpWzFdO1xyXG52YXIgcmVzID0ge307XHJcbnZhciBkID0gW107XHJcbmZvciAodmFyIGkgPSAxOyBpIDwgbGlzdC5sZW5ndGggLTE7IGkrKylcclxue1xuXHJpZihsaXN0W2ldLnNwbGl0KCddJylbMF0uaW5kZXhPZihzKSAhPSAtMSl7XG4gICAgZC5wdXNoKHtcclxuICAgICAgICB0aXRsZTogbGlzdFtpXS5zcGxpdCgnXScpWzBdLnJlcGxhY2UoJ1snLCAnICcpLFxyXG4gICAgICAgIHVybDogbGlzdFtpXS5zcGxpdCgnKCcpWzFdLnJlcGxhY2UoJyknLCAnICcpXHJcbiAgICB9KVxyXG59XG59XHJcbnJlcy5kYXRhID0gZDtcclxuc2V0U2VhcmNoUmVzdWx0KHJlcyk7IiwiZGV0YWlsX2NvbF90eXBlIjoidGV4dF80IiwiZGV0YWlsX2ZpbmRfcnVsZSI6IiIsInNkZXRhaWxfY29sX3R5cGUiOiJ0ZXh0XzQiLCJzZGV0YWlsX2ZpbmRfcnVsZSI6IiIsInVhIjoiYXV0byIsInByZVJ1bGUiOiIiLCJwYWdlcyI6IltdIiwiaWNvbiI6Imh0dHBzOi8vejMuYXgxeC5jb20vMjAyMS8xMC8yNC81V0VRUE8uanBnIn0=</span>
+			<h5>  提示：点击按钮复制，直接打开海阔导入即可  </h5>
+		<button class="btn4" data-clipboard-target="#copy3">一键复制安卓海阔视界导入密令</button>
+		
+		<script>
+		   $(function () {
+			   new Clipboard('.btn2, .btn3, .btn4');
+		   })
+		   function loopy() {   
+				var sWord =""  
+				while (sWord != "寻寻觅觅") {
+				sWord = prompt("请输入十月密令!")   
+				   }   
+				alert("正在进入！")   
+			}   
+			loopy();
 
-    </style>
-</head>
-<body>
 
-    <h2>   点击下面的带有颜色的对应的按钮即可一键复制，点击后到对应平台粘贴即可 </h2>
-        <h4>  方式一链接：视米趣播，IOS zFuse可使用  </h4>
-    <span id="copy">https://gitlab.com/xmfromoct/cafc71cf5a89c907/-/raw/main/AllNormal.m3u</span>
-		<h5>  建议：方式一链接仅推荐视米趣播使用，IOS zFuse可使用方式二  如果视米趣播没有原力需求，建议使用方式2</h5>
-    <button class="btn2" data-clipboard-target="#copy" >一键复制方式一链接 </button>
-
-	<h4>  方式二链接：安卓视迷/GSE IPTV/IPTV PRO、IOS GSE/zFuse、电脑potplayer/黑鸟播放器/VLC 可使用  </h4>
-	<span id="copy2">https://gitlab.com/xmfromoct/cafc71cf5a89c907/-/raw/main/AllStandard.m3u</span>
-		<h5>  建议：方式二链接为最稳定链接，请使用以上软件导入，安卓推荐GSE、IPTV PRO，IOS推荐zFuse，电脑推荐黑鸟播放器 使用Televizo的朋友请停止使用 </h5>
-    <button class="btn3" data-clipboard-target="#copy2" >一键复制方式二链接</button>
-	
-	<h4>  海阔视界专属小程序密令：  </h4>
-	<span id="copy3">海阔视界规则分享，当前分享的是：小程序￥home_rule_v2￥base64://@熊之大-10月@eyJsYXN0X2NoYXB0ZXJfcnVsZSI6IiIsInRpdGxlIjoi54aK5LmL5aSnLTEw5pyIIiwiYXV0aG9yIjoi54aK5LmL5aSnIiwidXJsIjoiaHR0cHM6Ly9naXRsYWIuY29tL2Z5Y2xhc3MiLCJ2ZXJzaW9uIjoxNiwiY29sX3R5cGUiOiJtb3ZpZV8zIiwiY2xhc3NfbmFtZSI6IuS+v+WIqeeJiCbnqLPlrprniYgiLCJ0eXBlIjoib3RoZXIiLCJjbGFzc191cmwiOiJ4bWZyb21vY3QvY2FmYzcxY2Y1YTg5YzkwNy8tL3Jhdy9tYWluL0FsbE5vcm1hbC5tM3UmcnRtcGcvNGNmOWExYWE2NzgzYWEwNi8tL3Jhdy9tYWluL0lPUy5tM3UiLCJhcmVhX25hbWUiOiIiLCJhcmVhX3VybCI6IiIsInNvcnRfbmFtZSI6IiIsInllYXJfbmFtZSI6IiIsInNvcnRfdXJsIjoiIiwieWVhcl91cmwiOiIiLCJmaW5kX3J1bGUiOiJqczogdmFyIHR4dHM9Z2V0UmVzQ29kZSgpLnNwbGl0KCdcXG4nKTtcbiAgICAgdmFyIHJlcz17fTtcbiAgICAgdmFyIGQ9W107XG4gZm9yKHZhciBpPTA7aTx0eHRzLmxlbmd0aDtpKyspe1xuICAgICB2YXIgcj17fTtcbiAgICAgdmFyIGo9dHh0c1tpXS5zcGxpdCgnLCcpO1xuICAgICAgICAgaWYoai5sZW5ndGg8Mil7Y29udGludWU7fVxuICAgICAgICAgIHIudGl0bGU9alswXTtcbiAgICAgICAgICByLnVybD1qWzFdLnJlcGxhY2UoYFxcbmAsJycpLnJlcGxhY2UoJ1xccicsJycpO1xuICAgICAgICAgIHIuY29sX3R5cGU9J3RleHRfMyc7XG4gICAgICAgICAgZC5wdXNoKHIpO1xufVxucmVzLmRhdGE9ZDtcbnNldEhvbWVSZXN1bHQocmVzKTsiLCJzZWFyY2hfdXJsIjoiIiwiZ3JvdXAiOiLikaXnm7Tmkq0iLCJzZWFyY2hGaW5kIjoianM6IHZhciBvYmogPSBnZXRSZXNDb2RlKCk7XHJcbnZhciBsaXN0ID0gb2JqLnNwbGl0KCcqJyk7XHJcbnZhciB1ID0gZ2V0VXJsKCk7XHJcbnZhciBzID0gdS5zcGxpdCgnIycpWzFdO1xyXG52YXIgcmVzID0ge307XHJcbnZhciBkID0gW107XHJcbmZvciAodmFyIGkgPSAxOyBpIDwgbGlzdC5sZW5ndGggLTE7IGkrKylcclxue1xuXHJpZihsaXN0W2ldLnNwbGl0KCddJylbMF0uaW5kZXhPZihzKSAhPSAtMSl7XG4gICAgZC5wdXNoKHtcclxuICAgICAgICB0aXRsZTogbGlzdFtpXS5zcGxpdCgnXScpWzBdLnJlcGxhY2UoJ1snLCAnICcpLFxyXG4gICAgICAgIHVybDogbGlzdFtpXS5zcGxpdCgnKCcpWzFdLnJlcGxhY2UoJyknLCAnICcpXHJcbiAgICB9KVxyXG59XG59XHJcbnJlcy5kYXRhID0gZDtcclxuc2V0U2VhcmNoUmVzdWx0KHJlcyk7IiwiZGV0YWlsX2NvbF90eXBlIjoidGV4dF80IiwiZGV0YWlsX2ZpbmRfcnVsZSI6IiIsInNkZXRhaWxfY29sX3R5cGUiOiJ0ZXh0XzQiLCJzZGV0YWlsX2ZpbmRfcnVsZSI6IiIsInVhIjoiYXV0byIsInByZVJ1bGUiOiIiLCJwYWdlcyI6IltdIiwiaWNvbiI6Imh0dHBzOi8vejMuYXgxeC5jb20vMjAyMS8xMC8yNC81V0VRUE8uanBnIn0=</span>
-    	<h5>  提示：点击按钮复制，直接打开海阔导入即可  </h5>
-	<button class="btn4" data-clipboard-target="#copy3">一键复制安卓海阔视界导入密令</button>
-	
-    <script>
-       $(function () {
-           new Clipboard('.btn2, .btn3, .btn4');
-       })
-       function loopy() {   
-            var sWord =""  
-            while (sWord != "寻寻觅觅") {
-            sWord = prompt("请输入十月密令!")   
-               }   
-            alert("正在进入！")   
-        }   
-
-        
-        function setUCookie(u_name,value){
-            var exdate=new Date()
-            exdate.setHours(exdate.getHours() + 1); //1小时后过期
-            document.cookie=u_name+ "=" +escape(value)+"; expires="+exdate.toGMTString();
-        }
-        
-        function getUCookie(u_name){
-            if (document.cookie.length>0){ 
-                u_start=document.cookie.indexOf(u_name + "=")
-            if (u_start!=-1){ 
-                u_start=u_start + u_name.length+1 
-                u_end=document.cookie.indexOf(";",u_start)
-                if (u_end==-1) u_end=document.cookie.length
-                    return unescape(document.cookie.substring(u_start,u_end))
-                } 
-            }
-            return ""
-        }
-        
-        function _setTimeout(){
-            if(getUCookie("uTimeCookie")!=1){
-                loopy()  
-            }
-        }
-        
-        _setTimeout()
-        
-        setUCookie("uTimeCookie","1");
-
-    </script>
-</body>
-</html>
+		</script>
+	</body>
+	</html>
